@@ -13,6 +13,7 @@
 		2F002346294DB96D0029386B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F002345294DB96D0029386B /* Preview Assets.xcassets */; };
 		2FAED0D0294F154100C3239C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAED0CF294F154100C3239C /* MessageView.swift */; };
 		2FAED0D2294F1A3800C3239C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAED0D1294F1A3800C3239C /* MenuView.swift */; };
+		2FF26AF229884BCA006DD440 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF26AF129884BCA006DD440 /* ChartView.swift */; };
 		2FF57220294E4C9500900BC0 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5721F294E4C9500900BC0 /* NavigationStackView.swift */; };
 		2FF57222294E577700900BC0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF57221294E577700900BC0 /* Data.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		2F002345294DB96D0029386B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FAED0CF294F154100C3239C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		2FAED0D1294F1A3800C3239C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2FF26AF129884BCA006DD440 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		2FF5721F294E4C9500900BC0 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		2FF57221294E577700900BC0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				2FAED0D1294F1A3800C3239C /* MenuView.swift */,
 				2F002342294DB96D0029386B /* Assets.xcassets */,
 				2F002344294DB96D0029386B /* Preview Content */,
+				2FF26AF129884BCA006DD440 /* ChartView.swift */,
 			);
 			path = DesignCodeiOS16;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				2F002341294DB96C0029386B /* ContentView.swift in Sources */,
 				2FAED0D2294F1A3800C3239C /* MenuView.swift in Sources */,
 				2FF57220294E4C9500900BC0 /* NavigationStackView.swift in Sources */,
+				2FF26AF229884BCA006DD440 /* ChartView.swift in Sources */,
 				2F00233F294DB96C0029386B /* DesignCodeiOS16App.swift in Sources */,
 				2FF57222294E577700900BC0 /* Data.swift in Sources */,
 				2FAED0D0294F154100C3239C /* MessageView.swift in Sources */,

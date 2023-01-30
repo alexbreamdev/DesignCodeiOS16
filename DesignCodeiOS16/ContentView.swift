@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-#warning("9 lesson completed")
+#warning("10 lesson completed")
 struct ContentView: View {
     @State var showMenu = false
     @AppStorage("selectedMenu") var selectedMenu: Menu = .compass
