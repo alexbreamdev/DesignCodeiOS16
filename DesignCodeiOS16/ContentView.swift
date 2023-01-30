@@ -6,13 +6,26 @@
 //
 
 import SwiftUI
-
+#warning("9 lesson completed")
 struct ContentView: View {
-    
     @State var showMenu = false
-    @State var selectedMenu: Menu = .compass
+    @AppStorage("selectedMenu") var selectedMenu: Menu = .compass
+    @GestureState var press = false
+    
+    var longPress: some Gesture {
+        LongPressGesture(minimumDuration: 1)
+            .updating($press) { currentState, gestureState, transaction in
+                gestureState = currentState
+            }
+            .onEnded { value in
+                showMenu = true
+            }
+    }
+    
     var body: some View {
         ZStack {
+            Color(.systemBackground).ignoresSafeArea()
+            
             switch selectedMenu {
             case .compass:
                 MessageView()
@@ -29,16 +42,14 @@ struct ContentView: View {
             case .actionbutton:
                 Text("Action Button")
             }
-            Button("Show menu") {
-                showMenu.toggle()
-            }
-            .sheet(isPresented: $showMenu) {
-                MenuView(selectedMenu: $selectedMenu)
-                    .presentationDetents([.medium, .large])
-                    .presentationDragIndicator(.visible)
-            }
+           
         }
-        
+        .gesture(longPress)
+        .sheet(isPresented: $showMenu) {
+            MenuView()
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
+        }
     }
 }
 
