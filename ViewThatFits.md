@@ -7,7 +7,7 @@
 
 [Look here code](https://github.com/alexbreamdev/DesignCodeiOS16/blob/main/DesignCodeiOS16/DetailView.swift)
 
-`
+```
 if frame >= 400 uses hstack (1.) else
 uses vstack (2.)
 ViewThatFits {
@@ -31,4 +31,4 @@ ViewThatFits {
       GridView()
   }
 }
-`
+```
