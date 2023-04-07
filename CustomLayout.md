@@ -1,5 +1,4 @@
 ### Custom Layout
-
 You traditionally arrange views in your app’s user interface using built-in layout containers like HStack and Grid. If you need more complex layout behavior, you can define a custom layout container by creating a type that conforms to the Layout protocol and implementing its required methods:
 
 sizeThatFits(proposal:subviews:cache:) reports the size of the composite layout view.
