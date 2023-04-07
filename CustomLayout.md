@@ -34,4 +34,5 @@ BasicVStack {
 }
 ```
 [Apple Documentation](https://developer.apple.com/documentation/swiftui/layout)
+
 [Implementation](https://github.com/alexbreamdev/DesignCodeiOS16/blob/main/DesignCodeiOS16/RadialLayoutView.swift)
