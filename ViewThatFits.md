@@ -7,26 +7,27 @@
 
 [Look here code](https://github.com/alexbreamdev/DesignCodeiOS16/blob/main/DesignCodeiOS16/DetailView.swift)
 
-            `if frame >= 400 uses hstack (1.) else
-             uses vstack (2.)
-            ViewThatFits {
-                // 1. landscape varian
-                HStack(alignment: .top, spacing: 20) {
-                    VStack {
-                        ChartView()
-                        GridView()
-                    }
-                    VStack {
-                        CardView()
-                        GridView()
-                    }
-                    .frame(width: 400) // minimum size must be assigned
-                }
-                
-                // 2. portrait variant
-                VStack {
-                    ChartView()
-                    CardView()
-                    GridView()
-                }
-            }`
+`if frame >= 400 uses hstack (1.) else
+uses vstack (2.)
+ViewThatFits {
+  // 1. landscape varian
+  HStack(alignment: .top, spacing: 20) {
+      VStack {
+          ChartView()
+          GridView()
+      }
+      VStack {
+          CardView()
+          GridView()
+      }
+      .frame(width: 400) // minimum size must be assigned
+  }
+
+  // 2. portrait variant
+  VStack {
+      ChartView()
+      CardView()
+      GridView()
+  }
+}
+`
