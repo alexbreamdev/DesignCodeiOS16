@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-#warning("10 lesson completed")
+#warning("13 lesson completed")
 struct ContentView: View {
     @State var showMenu = false
     @AppStorage("selectedMenu") var selectedMenu: Menu = .compass
@@ -32,7 +32,7 @@ struct ContentView: View {
             case .card:
                 Text("Card")
             case .charts:
-                Text("Charts")
+                DetailView()
             case .radial:
                 Text("Radial")
             case .halfsheet:
@@ -43,6 +43,9 @@ struct ContentView: View {
                 Text("Action Button")
             }
            
+        }
+        // hack for scrolling bug of viewthatfits
+        .onTapGesture {
         }
         .gesture(longPress)
         .sheet(isPresented: $showMenu) {
