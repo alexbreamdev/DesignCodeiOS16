@@ -69,19 +69,19 @@
 		2F00233D294DB96C0029386B /* DesignCodeiOS16 */ = {
 			isa = PBXGroup;
 			children = (
-				2F00233E294DB96C0029386B /* DesignCodeiOS16App.swift */,
+				2F002342294DB96D0029386B /* Assets.xcassets */,
+				2F9492F42989316E008D20C0 /* CardView.swift */,
+				2FF26AF129884BCA006DD440 /* ChartView.swift */,
 				2F002340294DB96C0029386B /* ContentView.swift */,
-				2F282D7E2996513B006B8465 /* RadialLayoutView.swift */,
+				2FF57221294E577700900BC0 /* Data.swift */,
+				2F00233E294DB96C0029386B /* DesignCodeiOS16App.swift */,
+				2FADA2BF29964B4C00C66CFE /* DetailView.swift */,
+				2F9492F229892C07008D20C0 /* GridView.swift */,
+				2FAED0D1294F1A3800C3239C /* MenuView.swift */,
 				2FAED0CF294F154100C3239C /* MessageView.swift */,
 				2FF5721F294E4C9500900BC0 /* NavigationStackView.swift */,
-				2F9492F229892C07008D20C0 /* GridView.swift */,
-				2FF57221294E577700900BC0 /* Data.swift */,
-				2FAED0D1294F1A3800C3239C /* MenuView.swift */,
-				2F002342294DB96D0029386B /* Assets.xcassets */,
 				2F002344294DB96D0029386B /* Preview Content */,
-				2FF26AF129884BCA006DD440 /* ChartView.swift */,
-				2F9492F42989316E008D20C0 /* CardView.swift */,
-				2FADA2BF29964B4C00C66CFE /* DetailView.swift */,
+				2F282D7E2996513B006B8465 /* RadialLayoutView.swift */,
 			);
 			path = DesignCodeiOS16;
 			sourceTree = "<group>";
