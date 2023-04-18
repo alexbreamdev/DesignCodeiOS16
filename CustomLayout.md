@@ -6,7 +6,7 @@ sizeThatFits(proposal:subviews:cache:) reports the size of the composite layout 
 placeSubviews(in:proposal:subviews:cache:) assigns positions to the container’s subviews.
 
 You can define a basic layout type with only these two methods:
-```
+```swift
 struct BasicVStack: Layout {
     func sizeThatFits(
         proposal: ProposedViewSize,
@@ -27,7 +27,7 @@ struct BasicVStack: Layout {
 }
 ```
 Use your layout the same way you use a built-in layout container, by providing a ViewBuilder with the list of subviews to arrange:
-```
+```swift
 BasicVStack {
     Text("A Subview")
     Text("Another Subview")
