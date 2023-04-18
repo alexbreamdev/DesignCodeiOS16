@@ -8,8 +8,8 @@
 [Look here code](https://github.com/alexbreamdev/DesignCodeiOS16/blob/main/DesignCodeiOS16/DetailView.swift)
 
 ```swift
-if frame >= 400 uses hstack (1.) else
-uses vstack (2.)
+///if frame >= 400 uses hstack (1.) else
+///uses vstack (2.)
 ViewThatFits {
   // 1. landscape varian
   HStack(alignment: .top, spacing: 20) {
